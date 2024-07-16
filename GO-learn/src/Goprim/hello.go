@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	fmt.Println("Hello " + "world")
@@ -9,6 +12,6 @@ func main() {
 	var str = "hello=%d"
 	fmt.Printf(str, a)
 	fmt.Printf("a = %d, b = %d\n", a, b)
-	fmt.Println(a)
+	time.Sleep(1 * time.Second)
 
 }
